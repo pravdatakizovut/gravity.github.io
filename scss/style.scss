@@ -1,0 +1,46 @@
+//!Varibles
+$basic :#3726F2;
+$secondary:#8D8D8D;
+$j_black:#222222;
+
+@import "nullstyle";
+@import "adaptive";
+@import "header";
+@import "problems";
+@import "services";
+@import "result";
+@import "works";
+@import "testimonials";
+@import "ourclients";
+//!Global
+body { 
+    font-family: 'Fira Sans', sans-serif ;
+    font-weight: 400 ;
+    color:$secondary !important;
+    font-size: 18px !important;
+}
+img {
+    max-width: 100%;
+}
+button {
+    display: block;
+    background:transparent;
+}
+.my__btn {
+    background:$basic;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    padding:14.5px 30px;
+    display: inline;
+    letter-spacing: 0.3em;
+    transition: all 0.3s ease;
+    &:hover{
+        background:#2f1fd6;
+
+    }
+}
+.be-static {
+    position: static;
+}

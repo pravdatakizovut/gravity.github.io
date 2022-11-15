@@ -1,0 +1,34 @@
+.ourclients {
+    padding-top: 120px;
+}
+
+.ourclients__text {
+    margin-bottom: 16px;
+}
+.ourclients__title{
+    padding-left: 0;
+}
+.ourclients__text{
+    font-size: 14px;
+    line-height: 24/14*100%;
+    font-weight: 500;
+    color:$j_black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.ourclients__desc {
+    font-size: 18px;
+    line-height: 28/18*100%;
+}
+.brands {
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+.footer {
+    height: 240px;
+    background-color:#515151;
+}
+.footer__text {
+ text-align: center;
+ color:#fff;
+}

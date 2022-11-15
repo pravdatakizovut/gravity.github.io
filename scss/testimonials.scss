@@ -1,0 +1,27 @@
+.testimonials {
+    padding-top: 200px;
+    padding-bottom: 60px;
+}
+
+.tesimonials__text {
+    font-size: 40px;
+    line-height: 50/40*100%;
+    color:$j_black;
+    font-weight: 600;
+    margin-bottom: 120px;
+}
+.tesimonials__name {
+    margin-bottom: 12px;
+    font-size: 22px;
+    color:$j_black;
+    font-weight: 500;
+}
+.tesimonials-carousel .owl-nav {
+    display: flex;
+}
+tesimonials-carousel {
+    width: 100px;
+}
+.tesimonials-carousel .owl-item img {
+    width: 80%;
+}
