@@ -1,7 +1,7 @@
 $('.services-carousel').owlCarousel({
     items:1,
     nav:true,
-    navText:['<img src="img/left.svg">','<img src="../img/right.svg">'],
+    navText:['<img src="img/left.svg">','<img src="img/right.svg">'],
     loop:true,
     margin:10,
     merge:true,
